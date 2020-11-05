@@ -1,1 +1,5 @@
 etc/mysql/my.cnf
+company_db/__pycache__
+company_db/migrations
+swecompanydb/__pycache__
+swecompanydb/migrations
