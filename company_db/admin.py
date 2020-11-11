@@ -8,5 +8,5 @@ class CompanyAdmin(admin.ModelAdmin):
 @admin.register(CompanyRep)
 class CompanyRepAdmin(admin.ModelAdmin):
     list_display = ('name', 'company', 'role')
-    list_filter = ('active', 'company')
+    list_filter = ('active', 'main', 'company')
     search_fields = ['name', ]
