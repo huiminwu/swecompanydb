@@ -24,6 +24,7 @@ class CompanyRep(models.Model):
     name = models.CharField(max_length=100)
     email = models.EmailField()
     active = models.BooleanField(default=True) # status (active or not)
+    main = models.BooleanField(default=False)
 
     company = models.ForeignKey(Company, on_delete=models.CASCADE, null=True)
     role = models.CharField(choices=REP_ROLES, max_length=100)
