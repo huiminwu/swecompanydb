@@ -13,3 +13,6 @@ def export_csv(request):
 
 def home(request):
     return render(request, "company_db/home.html", {"title": "home"})
+
+def about(request):
+    return render(request, "company_db/about.html", {"title": "about"})
