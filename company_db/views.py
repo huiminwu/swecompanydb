@@ -12,7 +12,7 @@ def export_csv(request):
 
 
 def home(request):
-    return render(request, "home.html", {"title": "home"})
+    return render(request, "company_db/home.html", {"title": "home"})
 
 def about(request):
-    return render(request, "templates/company_db/about.html", {"title": "about"})
+    return render(request, "company_db/about.html", {"title": "about"})
