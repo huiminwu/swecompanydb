@@ -120,7 +120,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, '/app/staticfiles')
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'company_db/templates/company_db'),
+    os.path.join(BASE_DIR, 'company_db/templates'),
 )
 
 django_heroku.settings(locals())
